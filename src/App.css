@@ -3,16 +3,23 @@
   width: 400px;
   height: 100%;;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .userlist {
-
+  color: white;
+  text-align: center;
+  background-color: #242424;
+  flex: 1;
 }
 
 .chat {
-
+  background-color: #505050;
+  flex: 9;
 }
 
 .inputbox {
-  
+  background-color: #2a2a2a;
+  flex: 1;
 }
